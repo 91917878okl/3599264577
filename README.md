@@ -16,7 +16,10 @@ local Translations = {
     ["Kill Aura Targets"] = "杀戮光环目标",
     ["All"] = "全部",
     ["Kill Aura Range"] = "杀戮光环范围",
-    ["Kill all (No distance limit)"] = "全杀（无距离限制）"
+    ["Kill all (No distance limit)"] = "全杀（无距离限制）",
+    ["Hit Box Expander"] = "碰撞箱扩展器",
+    ["Expand Hitbox"] = "扩展碰撞箱",
+    ["Hitbox Size"] = "碰撞箱大小"
 }
 
 local function translateText(text)
@@ -100,7 +103,7 @@ local function setupTranslationEngine()
                             if translatedText ~= text then
                                 descendant.Text = translatedText
                             end
-                        end
+                        end)
                     end)
                 end
             end)
