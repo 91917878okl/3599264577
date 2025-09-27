@@ -1,7 +1,7 @@
 local Translations = {
    --["H4x Scripts"] = "H4x 脚本",
     ["Freemium"] = "免费增值",
-    ["This tab is enpty"] = "此选项卡为空",  -- 修正：添加逗号
+    ["This tab is enpty"] = "此选项卡为空",
     ["Main"] = "主要",
     ["Fishing"] = "钓鱼",
     ["Bring"] = "带来",
